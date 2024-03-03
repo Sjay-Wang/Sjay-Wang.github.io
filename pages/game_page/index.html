@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shijie WANG's Websit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="game_index.css" />
+    <script src="index.js"></script>
+</head>
+    <body>
+        <div class="left_container">
+            <div class="btn prof" onclick="showContent('professional')">
+                <h3>Publications</h3>
+            </div>
+            <!-- <div class="btn news" onclick="showContent('news')">
+                <h3>Recent News</h3>
+            </div> -->
+            <div class="btn research" onclick="showContent('research')">
+                <h3>Contact</h3>
+            </div>
+        </div>
+        <div class="right_container">
+            <div class="right_present_professional content">
+                <div class="card">
+                <h1>Selected Publications</h1>
+                <hr /> 
+                <h2>Untargeted Black-box Attacks for Social Recommendations
+                </h2>
+                <a href="https://arxiv.org/abs/2311.07127"><img src="../../dict/images/framework.jpg" alt="Image of framework" style="max-width: 100%; height: auto;"></a>&nbsp;</td>
+                <ul>
+                    <p> <li>To the best of our knowledge, this is the first work
+                        to investigate untargeted black-box attacks for social
+                        recommendations with the goal of degrading the overall
+                        recommendation performance.</li>
+                        <li>We introduce a principle strategy to generate fake user
+                        profiles for attacking social recommendations, where cold-
+                        start items and cross-community users are leveraged to
+                        generate high-quality item and social profiles, respectively.</li>
+                        <li>We propose a novel attacking framework (MultiAttack)
+                        for attacking the black-box social recommendation, where
+                        multiple agents are introduced to coordinate the generation
+                        of social profiles and item profiles based on multi-agent
+                        reinforcement learning.</li>
+                        <li>Comprehensive experiments on various real-world
+                        datasets are conducted to demonstrate the effectiveness of
+                        the proposed attacking framework.</li></p>
+                </div>
+                <hr />
+                <div class="card">
+                <h2>A novel Multi-Agent Deep RL Approach for Traffic Signal Control</h2>
+                <a href="https://ieeexplore.ieee.org/abstract/document/10150326"><img src="../../dict/images/traffic.png" alt="Image of traffic" style="max-width: 100%; height: auto;"></a>&nbsp;</td>
+                <ul>
+                    <p> <li>We propose a Friend-DQN model to deal with multi-
+                        intersection problems, which aims to minimize average
+                        vehicle waiting time.</li>
+                        <li>We compare the Friend-DQN model with fixed-phase,
+                            centralized DQN and independent DQN for different
+                            numbers of intersections in terms of convergence speed and average waiting time.</li>
+                        <li> We justify the effectiveness and superiority of the Friend-
+                            DQN model on the SUMO platform.</li></p>
+                </div>
+                <hr /> 
+            </div>
+
+
+            <!-- <div class="right_present_news content">
+                <div class="card">
+                    <h1>Recent News</h1>
+                    <hr/>
+                    <h2><b>2023</b>  <br/></h2>
+                    <p>	
+                        <ul>
+                            <li>11/2023: Our new preprint  “Untargeted Black-box Attacks for Social Recommendations” is online.</li>
+                            <li>08/2023: Successfully present “Trustworthy Recommender Systems: Foundations and Frontiers“ tutorial on <b>IJCAI</b> conference.</li>
+                            <li>08/2023: Successfully present <a href=https://advanced-recommender-systems.github.io/trustworthy-recommendations/>“Trustworthy Recommender Systems: Foundations and Frontiers“</a> tutorial on <b>KDD</b> conference.</li>
+                            <li>08/2023: Transfered from Mphil to PhD.</li>
+                            <li>05/2023: Successfully present <a href=https://advanced-recommender-systems.github.io/trustworthiness-tutorial/>“Trustworthy Recommender Systems“</a> tutorial on <b>WWW</b> conference.</li>
+                            <li>03/2023: One paper (A novel Multi-Agent Deep RL Approach for Traffic Signal Control) got accepted by PerCOM‘2023 Workshops. </li>
+                        </ul>
+                        <b>2022</b>  <br/>	
+                            <ul>
+                                <!-- <li>Transfer at The Hong Kong Polytechnic University under the supervision of Dr.Fan Wenqi.</li> -->
+                                <!-- <li>Continue Mphil studies at The Hong Kong Polytechnic University under the supervision of Dr.Fan Wenqi.</li> -->
+                                <!-- <li>Graduated from the Liverpool University. </li> -->
+                            <!-- </ul> -->
+                            <!-- </p> -->
+                <!-- </div> -->
+            
+            <!-- </div> --> -->
+
+            <div class="right_present_research content">
+                <div class="card">
+                    <h1>Contact Me</h1>
+                    <hr/>
+                    <p>Mail: shijie.wang(at)connect.polyu.hk</p>
+                    <a href="https://clustrmaps.com/site/1bxqz" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=1_0-PLTHKaK-tnPZ66CPzhIGCOckBEgumHrR7NnG7Hc&cl=ffffff"></a>
+                </div>
+            	<!-- Coverage End -->
+
+            </div>
+
+
+        <div class="return">
+            <div class="btn ds_to_home">
+                <a href="../../index.html">
+                    <h2>Return</h2>
+                </a>
+            </div>
+        </div>
+        <script>
+            // Initialize with 'Professional' content displayed
+            showContent('professional');
+        </script>
+    </body>
+</html>

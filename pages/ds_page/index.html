@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Title of this subpage-->>
+    <title>Shijie WANG's Websitee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="ds_index.css" />
+    <script src="index.js"></script>
+</head>
+
+    <body>
+        <!-- Content on the left, 4 MAXIMUM-->
+        <div class="left_container">
+            <div class="btn prof" onclick="showContent('professional')">
+                <!-- Edit your own categories here-->
+                <h3>About Me</h3>
+            </div>
+            <div class="btn research" onclick="showContent('research')">
+                <h3>Experiences</h3>
+            </div>
+            <div class="btn inschool" onclick="showContent('inschool')">
+                <h3>Publications</h3>
+            </div>
+            <div class="btn kaggle" onclick="showContent('kaggle')">
+                <h3>Services</h3>
+            </div>
+        </div>
+        <div class="right_container">
+
+            <!-- Detailed information of the first category -->
+            <div class="right_present_professional content">
+                <div class="card">
+                    <h1>Shijie Wang</h1>
+                    <!-- <div class="stacking_img">
+                            <img src="../../img/Shijie.jpeg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Shijie WANG (SJAY)</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">Sep 1999</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">PhD Candidate</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">shijie.wang(at)connect.polyu.hk</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Hung Hom, Hong Kong, China</span></h6></div>
+                    </div> -->
+                </div> 
+                <hr />
+                <div class="card">
+                <table class="imgtable"><tr><td>
+                    <a href="images/Shijie.JPG"><img src="../../img/Shijie.jpeg" alt="Image of Shijie" width="135px" height="175px" /></a>&nbsp;</td>
+                    <td align="left"><h2>PhD Candidate <br />
+                    <a href="https://www.polyu.edu.hk/comp/people/academic-staff/">Department of Computing (COMP)</a> <br />
+                    The Hong Kong Polytechnic University (PolyU)</h2>
+                    <h2>Email: shijie.wang(at)connect.polyu.hk</h2>
+                    <h2>Office: VA324, VA Building, Hung Hom, Kowloon, Hong Kong SAR.</h2>
+                    </td></tr></table>
+                </div>    
+                <hr />
+                <div class="card">
+                <h1>Short Bio</h1>
+                </div>    
+                <hr />
+                <div class="card">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <!-- <a href="">t</a> -->
+                            <p>I am a PhD Candidate  in <a href="https://www.polyu.edu.hk/comp/">the department of Computing</a> of <a href="https://www.polyu.edu.hk//">The Hong Kong Polytechnic University (PolyU)</a>, where I am fortunate to be advised by Assistant Professor  <a href="https://wenqifan03.github.io/index.html">Fan Wenqi</a> and <a href="https://www4.comp.polyu.edu.hk/~csqli/">IEEE fellow Qing Li.</a> </p>
+                            <p>I got BSc degree in <a href="https://www.xjtlu.edu.cn/en/study/undergraduate/information-and-computing-science">Information and Computing Science</a> from <a href="https://www.xjtlu.edu.cn/en">Xi’an Jiaotong-Liverpool University</a> in China and <a href="https://www.liverpool.ac.uk/">the University of Liverpool</a> in the UK in July, 2022.</p>
+                            <p>I am now working on Robustness and Graph Neural Networks as well as their applications in recommender systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Detailed information of the second category -->
+            <div class="right_present_research content">
+                <div class="card">
+                    <h1>Education</h1>
+                    <hr />
+                    <h2><b>Doctor of Philosophy in Computing</b></h2>
+                    <h2>The Hong Kong Polytechnic University | 2022 - Now</h2> 
+                    <p><span style="text-decoration:underline">Research Interest</span>: Data Mining and Machine Learning, with a particular focus on: </p>
+                        <ul>
+                        <li><p>Recommender Systems (RecSys)</p>
+                        </li>
+                        <li><p>Large Language Models (LLMs)</p>
+                        </li>
+                        <li><p>Trustworthy AI: Adversarial Attacks</p>
+                        </li>
+                        <li><p>Graph Neural Networks; Graph Foundation Models</p>
+                        </li>
+                        </ul>
+                </div>
+                <hr />
+                <div class="card">
+                    <h2><b>BSc Information and Computing Science</b></h2>
+                    <h2>Xi'an Jiaotong-Liverpool University & University of liverpool | 2018 - 2022</h2>
+                    <p><span style="text-decoration:underline">Grade</span>: First Class (Honours) </p>
+                    <p><span style="text-decoration:underline">Notable Modules</span>: Advanced OO Programming, Software Engineering, Bio-Computation, Machine Learning, Multi-Agent Systems, Principles of Computer Games Design, Data Structures, Complexity of Algorithms, Computer Systems Security.</p>
+                    <!-- <p>Explanation: Xi'an Jiaotong-Liverpool University (XJTLU) is an international joint-venture university founded by Xi’an Jiaotong University in China and the University of Liverpool in the UK. Thus, undergraduate students earn two degrees: an XJTLU degree from the Chinese Ministry of Education and a globally recognised degree from the University of Liverpool.</p> -->
+                    </p>
+                </div>
+                <hr />
+                <div class="card">
+                    <h1>Intern Experience</h1>
+                    <p><b>Research Assistant</b>, The Hong Kong Polytechnic University | Sept 2022 - Now
+                    <br>Towards interactions between adversarial robustness and fairness for trustworthy graph neural networks.</p> 
+                    <p><b>Research Assistant</b>, Xi'an Jiaotong-Liverpool University | June 2021 - Apri 2022
+                    <br>Traffic Signal Controller Design by using multi-agent Reinforcement Learning approach.</p> 
+                    <p><b>Computer Programmer Intern</b>, Yinglink Technology (Beijing) Co., Ltd.  | June 2019 - Sep 2019
+                    </p> 
+                </div>
+            </div>
+
+            <!-- Detailed information of the third category -->
+            <div class="right_present_inschool content">
+                <div class="card">
+                    <h1>Tutorial</h1>
+                    <hr />
+                    <ul>
+                        <li><p><b>Trustworthy Recommender Systems: Foundations and Frontiers</b>, ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<b>KDD</b>>, Tutorial), 2023. <a href=https://advanced-recommender-systems.github.io/trustworthy-recommendations/> More</a> </p>
+                        </li>
+                        <li><p><b>Trustworthy Recommender Systems: Foundations and Frontiers</b>, International Joint Conference on Artificial Intelligence (<b>IJCAI</b>, Tutorial), 2023. <a href=https://advanced-recommender-systems.github.io/trustworthy-rec/> More</a> </p>
+                        </li>
+                        <li><p><b>Trustworthy Recommender Systems</b>, The Web Conference (<b>WWW</b>, Tutorial), 2023. <a href=https://advanced-recommender-systems.github.io/trustworthiness-tutorial> More</a> </p>
+                </div>
+                <hr />
+
+            <div class="card">
+                <h1>Selected Publications</h1>
+                <hr />
+                <ul>
+                    <li> <p><b>Shijie Wang</b>, Wenqi Fan, Xiao-yong Wei, Xiaowei Mei, Qing Li
+                        <br><b>Untargeted Black-box Attacks for Social Recommendations </b>   <br>
+                        <a>  arXiv:2311.07127, 2023.</a>  <a href="https://arxiv.org/abs/2311.07127">[Arxiv]</a></p></li>
+                    </li>
+                    <li> <p><b>Shijie Wang</b>, Shangbo Wang
+                        <br><b>A novel Multi-Agent Deep RL Approach for Traffic Signal Control </b> </br>  
+                        In IEEE International Conference on Pervasive Computing and Communications Workshops (<b>PerCom</b>) <a href="https://arxiv.org/abs/2306.02684">[Arxiv]</a></p></li>
+                    </li>
+            </div>
+            <hr />
+            </div>
+
+
+            <!-- Detailed information of the third category -->
+            <div class="right_present_kaggle content">
+                <div class="card">
+                    <div class="card">
+                        <h1>Professional Services & Activities</h1>
+                        <hr />
+                        <p> <b>Program Committee	</b>
+                            <ul>
+                                <li><b>2024:&nbsp </b> SIGKDD Conference on Knowledge Discovery and Data Mining (<b>KDD</b>) </li>
+                                <li><b>2024:&nbsp </b> The Association for the Advancement of Artificial Intelligence (<b>AAAI</b>)</li>
+                                <li><b>2024:&nbsp </b> Transactions on Knowledge Discovery from Data (<b>TKDD</b>)</li>
+                                <li><b>2024:&nbsp </b> ICDM workshop Machine Learning on Graphs (<b>ICDM MLoG</b>)</li>
+                            </ul>  
+                        </p>
+                        <hr />
+
+                        <p> <b>Reviewer</b>
+                            <ul>
+                                <li><b>2023:&nbsp</b> The Association for the Advancement of Artificial Intelligence (<b>AAAI</b>)</li>
+                            <!-- </ul>  
+                        </p>
+                            <p> 
+                            <b>Sub-Reviewer:</b><br/>
+                            <ul> -->
+                                <li><b>2023:&nbsp</b> SIGKDD Conference on Knowledge Discovery and Data Mining (<b>KDD</b>) </li>
+                                <li><b>2023:&nbsp</b> The Web Conference (<b>WWW</b>)</li>
+                                <li><b>2023:&nbsp</b> Web Search and Data Mining (<b>WSDM</b>)</li>
+                                <li><b>2023:&nbsp</b> IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>)</li>
+                                <li><b>2022:&nbsp</b> Information and Knowledge Management (<b>CIKM</b>)</li>
+                                <li><b>2022:&nbsp</b> Learning on Graphs Conference (<b>LOG</b>)</li>
+                            </ul>  </p>
+                    </div>
+                    
+                    <!-- Insert Image here. Remove it if not needed -->
+                    <!-- <div class="stacking_img">
+                        <img src="../../dict/images/capybara.jpg" alt="Process of Stacking">
+                        <p> I am a capybara</p>
+                    </div> -->
+
+                </div>
+                <hr />
+                <div class="card">
+                    <div class="card">
+                        <h1>Teaching</h1>
+                        <hr />
+                        <p> <b>Teaching Assistant (TA) at PolyU:</b>
+                            <ul>
+                                <li>COMP3511: Legal Aspects and Ethics of Computing, Spring’2024</li>
+                                <li>COMP5511: Artificial Intelligence Concepts, Fall’2023</li>
+                            </ul>  
+                        </p>
+                    </div>
+                </div>    
+            </div>
+            
+
+
+            <!-- Return to the main page -->
+            <div class="return">
+                <div class="btn ds_to_home">
+                    <a href="../../index.html">
+                        <h2>Return</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Initialize with 'Professional' content displayed
+            showContent('professional');
+        </script>
+    </body>
+</html>
