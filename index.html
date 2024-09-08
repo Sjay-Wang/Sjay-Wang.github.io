@@ -154,11 +154,12 @@
 </div>
 
     <h2 id="bio">Bio</h2>
-<p>I am a second-year PhD Candidate  in <a href="https://www.polyu.edu.hk/comp/">the department of Computing</a> of <a href="https://www.polyu.edu.hk//">The Hong Kong Polytechnic University (PolyU)</a>, advised by Assistant Professor  <a href="https://wenqifan03.github.io/index.html">Fan Wenqi</a> and <a href="https://www4.comp.polyu.edu.hk/~csqli/">Prof. Li Qing.</a> My current research focuses on Large Language Models (LLMs) and Graph Neural Networks (GNNs) as well as their applications in recommender systems (RecSys).</p>
+<p>I am a third-year PhD Candidate  in <a href="https://www.polyu.edu.hk/comp/">the department of Computing</a> of <a href="https://www.polyu.edu.hk//">The Hong Kong Polytechnic University (PolyU)</a>, advised by Assistant Professor  <a href="https://wenqifan03.github.io/index.html">Fan Wenqi</a> and <a href="https://www4.comp.polyu.edu.hk/~csqli/">Prof. Li Qing.</a> My current research focuses on Large Language Models (LLMs) and Graph Neural Networks (GNNs) as well as their applications in recommender systems (RecSys).</p>
 <p>I obtained my BSc degree in <a href="https://www.xjtlu.edu.cn/en/study/undergraduate/information-and-computing-science">Information and Computing Science</a> from <a href="https://www.xjtlu.edu.cn/en">Xi’an Jiaotong-Liverpool University</a> in China and <a href="https://www.liverpool.ac.uk/">the University of Liverpool</a> in the UK in July, 2022.</p>
 <!-- <p> </p> -->
 <h2 id="news">News</h2>
 <ul>
+<li>May 2024: our paper <a href="">“Multi-agent Attacks for Black-box Social Recommendations”</a>  is accepted by <b>Transactions on Information Systems (TOIS)</b>🎉.</li>
 <li>May 2024: our tutorial and survey paper <a href="https://arxiv.org/abs/2405.06211">“A Survey on RAG Meets LLMs: Towards Retrieval-Augmented Large Language Models”</a> got accepted by <b>KDD 2024</b>🎉.</li>
 <li>May 2024: our paper <a href="https://dl.acm.org/doi/pdf/10.1145/3637528.3671837">“CheatAgent: Attacking LLM-Empowered Recommender Systems via LLM Agent”</a>  is accepted by <b>KDD 2024</b>🎉.</li>
 <li>May 2024: I’ll be interning at Baidu Search Science team this summer!</li>
@@ -166,7 +167,7 @@
 <li>Apr 2024: our new preprint <a href="https://arxiv.org/abs/2404.14928">“Graph Machine Learning in the Era of Large Language Models (LLMs)“</a> is online.</li>
 <li>Apr 2024: our tutorial on <a href="https://advanced-recommender-systems.github.io/LLMs4Rec-IJCAI/">“Recommender Systems in the Era of Large Language Models (LLMs)“</a> is accepted by <b>IJCAI 2024</b>🎉.</li>
 <li>Mar 2024: our paper <a href="https://arxiv.org/abs/2403.07353">“Graph Unlearning with Efficient Partial Retraining”</a> is accepted by <b>WWW PhD Symposium 2024</b>🎉.</li>
-<li>Nov 2023: our new preprint <a href="https://arxiv.org/abs/2311.07127">“Untargeted Black-box Attacks for Social Recommendations“</a> is online.</li>
+<!-- <li>Nov 2023: our new preprint <a href="https://arxiv.org/abs/2311.07127">“Untargeted Black-box Attacks for Social Recommendations“</a> is online.</li> -->
 <li>May 2023: our tutorial on <a href="https://advanced-recommender-systems.github.io/trustworthy-recommendations/">“Trustworthy Recommender Systems: Foundations and Frontiers”</a> is accepted by <b>KDD 2023</b>🎉.</li>
 <li>Apr 2023: our tutorial on <a href="https://advanced-recommender-systems.github.io/trustworthy-rec/">“Trustworthy Recommender Systems: Foundations and Frontiers”</a> is accepted by <b>IJCAI 2023</b>🎉.</li>
 </ul>
@@ -176,6 +177,58 @@
         <h2 id="publications">Selected Publications</h2>
         <div>
             For a full list of publications, see <a href="research">Research</a>. * indicates equal contribution.
+        </div>
+
+        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
+        my-1.5 p-2.5 rounded bg-slate-100 dark:bg-slate-700 box-border
+        leading-tight justify-around" id="Untargeted-Black-box-Attacks-for-Social-Recommendations"
+        itemscope itemtype="http://schema.org/ScholarlyArticle">
+        <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
+        itemscope itemtype="http://schema.org/ImageObject">
+        <img alt="Graph Unlearning with Efficient Partial Retraining paper illustration"
+         itemprop="url" src="img/paper/multiattack.jpg"
+         class="w-full"/>
+        </div>
+        <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
+        
+            <b><span itemprop="author">Shijie Wang</span></b>,
+        
+        <span itemprop="author">Wenqi Fan, Xiao-yong Wei, Xiaowei Mei, Qing Li</span>
+        
+        <br>
+        <b>
+        <a href="https://arxiv.org/abs/2311.07127">
+            <span itemprop="name">Multi-agent Attacks for Black-box Social Recommendations</span>
+        </a>
+        </b>
+        <meta itemprop="headline" content=">Multi-agent Attacks for Black-box Social Recommendations"/>
+        <br>
+        
+        <div>
+        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <i itemprop="name">Transactions on Information Systems (TOIS)</i></span>,
+        
+        <meta itemprop="datePublished" content="2024">2024.
+        </div><div itemprop="description" class="pub-description text-sm my-1.5"> To perform untargeted attacks on social recommender systems, attackers can construct malicious social relationships for fake users to enhance the attack performance. However, the coordination of social relations and item profiles is challenging for attacking black-box social recommendations. To address this limitation, we first conduct several preliminary studies to demonstrate the effectiveness of cross-community connections and cold-start items in degrading recommendations performance. Specifically, we propose a novel framework Multiattack based on multi-agent reinforcement learning to coordinate the generation of cold-start item profiles and cross-community social relations for conducting untargeted attacks on black-box social recommendations. Comprehensive experiments on various real-world datasets demonstrate the effectiveness of our proposed attacking framework under the black-box setting.</div>
+        <div class="pub-link-wrapper mt-1.5 text-sm"><span class="publication-link bg-sky-600
+                     dark:bg-sky-700 rounded-sm p-1
+                     dark:hover:bg-sky-500
+                     hover:bg-sky-800 mr-1"><a class="border-none
+                     text-white
+                     dark:text-zinc-200
+                     hover:text-gray-900
+                      hover:dark:text-gray-800"
+               itemprop="mainEntityOfPage" href="https://arxiv.org/abs/2311.07127">paper</a></span><span class="publication-link cursor-pointer
+                     bg-sky-600 dark:bg-sky-700
+                     hover:bg-sky-800
+                     dark:hover:bg-sky-500
+                     text-white
+                     dark:text-zinc-200
+                     dark:hover:text-gray-800
+                     hover:text-gray-900
+                     rounded-sm p-1 mr-1"><button class="open-modal text-inherit"
+                    data-target="#open-modal-Untargeted-Black-box-Attacks-for-Social-Recommendations">cite</button></span></div>
+        </div>
         </div>
 
         <div class="pub-wrapper w-full inline-flex flex-wrap items-center
@@ -410,7 +463,7 @@ itemscope itemtype="http://schema.org/ImageObject">
 </div>
 
     
-<div class="pub-wrapper w-full inline-flex flex-wrap items-center
+<!-- <div class="pub-wrapper w-full inline-flex flex-wrap items-center
 my-1.5 p-2.5 rounded bg-slate-100 dark:bg-slate-700 box-border
 leading-tight justify-around" id="Untargeted-Black-box-Attacks-for-Social-Recommendations"
 itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -460,7 +513,7 @@ In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization
              rounded-sm p-1 mr-1"><button class="open-modal text-inherit"
             data-target="#open-modal-Untargeted-Black-box-Attacks-for-Social-Recommendations">cite</button></span></div>
 </div>
-</div>
+</div> -->
     
     
 <div class="pub-wrapper w-full inline-flex flex-wrap items-center
@@ -662,7 +715,7 @@ In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization
                 max-w-full
                 rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
         <button id="#close-modal-Untargeted-Black-box-Attacks-for-Social-Recommendations" title="Close" class="modal-close rounded-sm p-2">✕</button>
-        <h3>Cite <i>Untargeted Black-box Attacks for Social Recommendations</i></h3>
+        <h3>Cite <i>Multi-agent Attacks for Black-box Social Recommendations</i></h3>
         <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
                        bg-sky-600 dark:bg-sky-700 rounded-sm
                        text-white
