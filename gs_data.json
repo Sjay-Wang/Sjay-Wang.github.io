@@ -1,0 +1,324 @@
+{
+  "source": "SERPAPI_GOOGLE_SCHOLAR_AUTHOR",
+  "scholar_id": "jeJeXVYAAAAJ",
+  "name": "Shijie Wang",
+  "citedby": 2735,
+  "cited_by": {
+    "table": [
+      {
+        "citations": {
+          "all": 2735,
+          "since_2021": 2731
+        }
+      },
+      {
+        "h_index": {
+          "all": 12,
+          "since_2021": 12
+        }
+      },
+      {
+        "i10_index": {
+          "all": 13,
+          "since_2021": 13
+        }
+      }
+    ],
+    "graph": [
+      {
+        "year": 2024,
+        "citations": 170
+      },
+      {
+        "year": 2025,
+        "citations": 1217
+      },
+      {
+        "year": 2026,
+        "citations": 1317
+      }
+    ]
+  },
+  "publications": [
+    {
+      "title": "A survey on rag meeting llms: Towards retrieval-augmented large language models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:zYLM7Y9cAGgC",
+      "citation_id": "jeJeXVYAAAAJ:zYLM7Y9cAGgC",
+      "authors": "W Fan, Y Ding, L Ning, S Wang, H Li, D Yin, TS Chua, Q Li",
+      "publication": "Proceedings of the 30th ACM SIGKDD conference on knowledge discovery and …, 2024",
+      "cited_by": {
+        "value": 2059,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4439195171371337250,5420122754965717087",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4439195171371337250%2C5420122754965717087&engine=google_scholar&hl=en",
+        "cites_id": "4439195171371337250,5420122754965717087"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Knowledge graph retrieval-augmented generation for llm-based recommendation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:0EnyYjriUFMC",
+      "citation_id": "jeJeXVYAAAAJ:0EnyYjriUFMC",
+      "authors": "S Wang, W Fan, Y Feng, S Lin, X Ma, S Wang, D Yin",
+      "publication": "Proceedings of the 63rd Annual Meeting of the Association for Computational …, 2025",
+      "cited_by": {
+        "value": 172,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3462234415221687135,9599364596445383059",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3462234415221687135%2C9599364596445383059&engine=google_scholar&hl=en",
+        "cites_id": "3462234415221687135,9599364596445383059"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Graph machine learning in the era of large language models (llms)",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "jeJeXVYAAAAJ:IjCSPb-OGe4C",
+      "authors": "S Wang, J Huang, Z Chen, Y Song, W Tang, H Mao, W Fan, H Liu, X Liu, ...",
+      "publication": "ACM Transactions on Intelligent Systems and Technology 16 (5), 1-40, 2025",
+      "cited_by": {
+        "value": 117,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11050681256603424045",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11050681256603424045&engine=google_scholar&hl=en",
+        "cites_id": "11050681256603424045"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Cheatagent: Attacking llm-empowered recommender systems via llm agent",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "jeJeXVYAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "L Ning*, S Wang*, W Fan, Q Li, X Xu, H Chen, F Huang",
+      "publication": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and …, 2024",
+      "cited_by": {
+        "value": 88,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2760966686229938112",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2760966686229938112&engine=google_scholar&hl=en",
+        "cites_id": "2760966686229938112"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Score-based generative diffusion models for social recommendations",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:_FxGoFyzp5QC",
+      "citation_id": "jeJeXVYAAAAJ:_FxGoFyzp5QC",
+      "authors": "C Liu, J Zhang, S Wang, W Fan, Q Li",
+      "publication": "IEEE Transactions on Knowledge and Data Engineering, 2025",
+      "cited_by": {
+        "value": 57,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3971391266368380793",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3971391266368380793&engine=google_scholar&hl=en",
+        "cites_id": "3971391266368380793"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Graph unlearning with efficient partial retraining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:UeHWp8X0CEIC",
+      "citation_id": "jeJeXVYAAAAJ:UeHWp8X0CEIC",
+      "authors": "J Zhang",
+      "publication": "Companion Proceedings of the ACM Web Conference 2024, 1218-1221, 2024",
+      "cited_by": {
+        "value": 48,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14489885155755776732",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14489885155755776732&engine=google_scholar&hl=en",
+        "cites_id": "14489885155755776732"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Towards next-generation recommender systems: A benchmark for personalized recommendation assistant with llms",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:Se3iqnhoufwC",
+      "citation_id": "jeJeXVYAAAAJ:Se3iqnhoufwC",
+      "authors": "J Huang, S Wang, L Ning, W Fan, S Wang, D Yin, Q Li",
+      "publication": "Proceedings of the Nineteenth ACM International Conference on Web Search and …, 2026",
+      "cited_by": {
+        "value": 38,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14520166432746091650",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14520166432746091650&engine=google_scholar&hl=en",
+        "cites_id": "14520166432746091650"
+      },
+      "year": "2026"
+    },
+    {
+      "title": "Computational protein science in the era of large language models (LLMs)",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:roLk4NBRz8UC",
+      "citation_id": "jeJeXVYAAAAJ:roLk4NBRz8UC",
+      "authors": "W Fan, Y Zhou, S Wang, Y Yan, H Liu, Q Zhao, L Song, Q Li",
+      "publication": "arXiv preprint arXiv:2501.10282, 2025",
+      "cited_by": {
+        "value": 35,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=189444286318047624",
+        "serpapi_link": "https://serpapi.com/search.json?cites=189444286318047624&engine=google_scholar&hl=en",
+        "cites_id": "189444286318047624"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Multi-agent attacks for black-box social recommendations",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "jeJeXVYAAAAJ:YsMSGLbcyi4C",
+      "authors": "S Wang, W Fan, XY Wei, X Mei, S Lin, Q Li",
+      "publication": "ACM Transactions on Information Systems 43 (1), 1-26, 2024",
+      "cited_by": {
+        "value": 28,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16580668669243894894,7357874446665865842",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16580668669243894894%2C7357874446665865842&engine=google_scholar&hl=en",
+        "cites_id": "16580668669243894894,7357874446665865842"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Towards retrieval-augmented large language models: Data management and system design",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:UebtZRa9Y70C",
+      "citation_id": "jeJeXVYAAAAJ:UebtZRa9Y70C",
+      "authors": "W Fan, P Wu, Y Ding, L Ning, S Wang, Q Li",
+      "publication": "2025 IEEE 41st International Conference on Data Engineering (ICDE), 4509-4512, 2025",
+      "cited_by": {
+        "value": 19,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13514623491216561725",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13514623491216561725&engine=google_scholar&hl=en",
+        "cites_id": "13514623491216561725"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "A Novel Multi-Agent Deep RL Approach for Traffic Signal Control",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "jeJeXVYAAAAJ:d1gkVwhDpl0C",
+      "authors": "W Shijie, W Shangbo",
+      "publication": "2023 IEEE International Conference on Pervasive Computing and Communications …, 2023",
+      "cited_by": {
+        "value": 19,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2454200962448306015",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2454200962448306015&engine=google_scholar&hl=en",
+        "cites_id": "2454200962448306015"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Trustworthy recommender systems: Foundations and frontiers",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "jeJeXVYAAAAJ:2osOgNQ5qMEC",
+      "authors": "W Fan, X Zhao, L Wang, X Chen, J Gao, Q Liu, S Wang",
+      "publication": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and …, 2023",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7173877378400208934",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7173877378400208934&engine=google_scholar&hl=en",
+        "cites_id": "7173877378400208934"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Continuous-time discrete-space diffusion model for recommendation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:_kc_bZDykSQC",
+      "citation_id": "jeJeXVYAAAAJ:_kc_bZDykSQC",
+      "authors": "C Liu, X Chen, S Wang, W Fan, Q Li",
+      "publication": "Proceedings of the Nineteenth ACM International Conference on Web Search and …, 2026",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16278261534549232312",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16278261534549232312&engine=google_scholar&hl=en",
+        "cites_id": "16278261534549232312"
+      },
+      "year": "2026"
+    },
+    {
+      "title": "& Li, Q.(2024). A survey on rag meeting llms: Towards retrieval-augmented large language models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "jeJeXVYAAAAJ:MXK_kJrjxJIC",
+      "authors": "W Fan, Y Ding, L Ning, S Wang, H Li, D Yin",
+      "publication": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and …, 0",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16313570643216929414",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16313570643216929414&engine=google_scholar&hl=en",
+        "cites_id": "16313570643216929414"
+      },
+      "year": ""
+    },
+    {
+      "title": "Atomic intent reasoning: Bringing llm semantics to industrial cross-domain recommendations",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:mVmsd5A6BfQC",
+      "citation_id": "jeJeXVYAAAAJ:mVmsd5A6BfQC",
+      "authors": "Z Jiang, Y Chen, S Wang, H Qu, J Zhou, W Fan, Q Li, D Liang, J Wang",
+      "publication": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and …, 2026",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5678735623781781059",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5678735623781781059&engine=google_scholar&hl=en",
+        "cites_id": "5678735623781781059"
+      },
+      "year": "2026"
+    },
+    {
+      "title": "ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:4DMP91E08xMC",
+      "citation_id": "jeJeXVYAAAAJ:4DMP91E08xMC",
+      "authors": "J Huang, S Wang, LB Ning, W Fan, Q Li",
+      "publication": "Proceedings of the 64th Annual Meeting of the Association for Computational …, 2026",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12433828426831572878",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12433828426831572878&engine=google_scholar&hl=en",
+        "cites_id": "12433828426831572878"
+      },
+      "year": "2026"
+    },
+    {
+      "title": "Mixture-of-Experts Knowledge Graph Retrieval-Augmented Generation for Multi-Agent LLM-based Recommendation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:Wp0gIr-vW9MC",
+      "citation_id": "jeJeXVYAAAAJ:Wp0gIr-vW9MC",
+      "authors": "S Wang, C Liu, Y Ding, S Lin, SK Ng, X Xin, W Fan",
+      "publication": "ACM SIGKDD Conference Oral, 2026",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3586736424847303419",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3586736424847303419&engine=google_scholar&hl=en",
+        "cites_id": "3586736424847303419"
+      },
+      "year": "2026"
+    },
+    {
+      "title": "A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models.” arXiv. Org. May 10, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:Zph67rFs4hoC",
+      "citation_id": "jeJeXVYAAAAJ:Zph67rFs4hoC",
+      "authors": "W Fan, Y Ding, L Ning, S Wang, H Li, D Yin, TS Chua, Q Li",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16189457285832381388",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16189457285832381388&engine=google_scholar&hl=en",
+        "cites_id": "16189457285832381388"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Qing Li. A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models, June 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:KlAtU1dfN6UC",
+      "citation_id": "jeJeXVYAAAAJ:KlAtU1dfN6UC",
+      "authors": "W Fan, Y Ding, L Ning, S Wang, H Li, D Yin, TS Chua",
+      "publication": "arXiv preprint arXiv:2405.06211, 0",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14577894032520175653",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14577894032520175653&engine=google_scholar&hl=en",
+        "cites_id": "14577894032520175653"
+      },
+      "year": ""
+    },
+    {
+      "title": "Tree-of-AdEditor: heuristic tree reasoning for automated video advertisement editing with large language model",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jeJeXVYAAAAJ&citation_for_view=jeJeXVYAAAAJ:YOwf2qJgpHMC",
+      "citation_id": "jeJeXVYAAAAJ:YOwf2qJgpHMC",
+      "authors": "Y Zhang, B Guo, N Li, Y Zhang, S Wang, Z Yu, Q Li",
+      "publication": "Proceedings of the Thirty-Fourth International Joint Conference on …, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=146518052519404369",
+        "serpapi_link": "https://serpapi.com/search.json?cites=146518052519404369&engine=google_scholar&hl=en",
+        "cites_id": "146518052519404369"
+      },
+      "year": "2025"
+    }
+  ],
+  "updated": "2026-09-26T12:33:26.926278+00:00"
+}
